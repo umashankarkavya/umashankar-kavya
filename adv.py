@@ -1,0 +1,16 @@
+my_neighbours = ["swetha", "suvarchala", "soundarya", "aishwarya"]
+x = len(my_neighbours)
+my_neighbours.append("suvetha")
+print(my_neighbours)
+my_neighbours.remove("aishwarya")
+print(my_neighbours)
+my_neighbours.sort()
+print(my_neighbours)
+my_neighbours.reverse()
+print(my_neighbours)
+my_neighbours.count("swetha")
+print(my_neighbours)
+my_neighbours.pop("swetha")
+print(my_neighbours)
+
+print(len(my_neighbours))
